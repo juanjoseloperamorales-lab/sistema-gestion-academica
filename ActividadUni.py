@@ -489,11 +489,10 @@ def main():
         print("-" * 55)
 
 #Pruebas para la actividad 2:
-
-    print("\n==================================================")
-    print(" PRUEBAS DE LA ACTIVIDAD N°2 (GRUPOS Y EXCEPCIONES)")
-    print("==================================================\n")
-
+   print("\n==================================================")
+   print(" PRUEBAS DE LA ACTIVIDAD N°2 (GRUPOS Y EXCEPCIONES)")
+   print("==================================================\n")
+ 
 # Prueba: Demostrar que Persona no se puede instanciar directamente
     print("--- Prueba: Intentar instanciar la clase Persona directamente ---")
     try:
@@ -571,6 +570,7 @@ def main():
     buscar_asignatura("ASI01", asignaturas).mostrar_informacion()
     buscar_programa("PRG01", programas).mostrar_informacion()
     print("\nFin de las pruebas de la Actividad 2.")
+    
 
 
 if __name__ == "__main__":
